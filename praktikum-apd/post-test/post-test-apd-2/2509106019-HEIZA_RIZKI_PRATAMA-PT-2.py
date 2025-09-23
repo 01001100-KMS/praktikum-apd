@@ -5,7 +5,7 @@ beratBadan = float(input("Masukkan Berat Badan (kg): "))
 beratIdeal = (tinggi - 100)
 isKelebihan = beratBadan > beratIdeal
 
-statusList = ["Ideal", "Big Chungus"]
+statusList = ["Ideal", "Keberantan"]
 status = statusList[int(isKelebihan)]
 
 def row_formatting(label, value):
